@@ -6,7 +6,7 @@ A simple app that manage movie ticketing
 
 ### Components
 
-There are 3 components for building the app:
+There are 2 components for building the app:
 
 1. server (Backend) - Using NodeJS and Express as the web application Framework.
 2. Movie-reservation>src(itself) (Frontend) - Using ReactJS with Tailwindcss as the UI Framework.
