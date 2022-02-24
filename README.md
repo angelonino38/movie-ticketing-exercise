@@ -37,4 +37,4 @@ If your environment is using the abovementioned ports, then adjust the port mapp
     `cd movie-ticketing-exercise`
 3.  Initialize docker-compose
     `docker-compose up -d`
-4.  Open web browser and go to http://localhost:4445/ (web) and the API route http://localhost:4444/movies
+4.  Open web browser and go to http://localhost:4445/ (web) and the API route http://localhost:4444/ and http://localhost:4444/movies (server)
