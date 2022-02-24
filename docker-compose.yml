@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  api:
+    build: ./server
+    ports:
+      - 4444:8000
+    restart: unless-stopped
+    environment:
+      PORT: 8000
+
+  web:
+    build: ./web
+    ports:
+      - "4445:3000"
+    restart: unless-stopped
+    depends_on:
+      - "api"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
