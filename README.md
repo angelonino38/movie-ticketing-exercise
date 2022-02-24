@@ -30,7 +30,7 @@ If your environment is using the abovementioned ports, then adjust the port mapp
 1.  Clone the repository.
     `git clone https://github.com/angelonino38/movie-ticketing-exercise.git`
 2.  Go to project root directory
-    `cd movie-reservation`
+    `cd movie-ticketing-exercise`
 3.  Initialize docker-compose
     `docker-compose up -d`
 4.  Open web browser and go to http://localhost:4445/ (web)
