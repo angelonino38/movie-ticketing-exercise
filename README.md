@@ -23,6 +23,10 @@ _Note:_ The app's Docker compose configuration will use the following ports:
 - **4444** - api
 - **4455** - web
 
+### Routes
+
+- **/movies**
+
 If your environment is using the abovementioned ports, then adjust the port mapping defined in the docker-compose.yml file as desired.
 
 ### Installation
@@ -33,4 +37,4 @@ If your environment is using the abovementioned ports, then adjust the port mapp
     `cd movie-ticketing-exercise`
 3.  Initialize docker-compose
     `docker-compose up -d`
-4.  Open web browser and go to http://localhost:4445/ (web)
+4.  Open web browser and go to http://localhost:4445/ (web) and the API route http://localhost:4444/movies
