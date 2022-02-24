@@ -21,7 +21,7 @@ There are 2 components for building the app:
 _Note:_ The app's Docker compose configuration will use the following ports:
 
 - **4444** - api
-- **4455** - web
+- **4445** - web
 
 ### Routes
 
